@@ -1,0 +1,58 @@
+
+.footer {
+    background-color: whitesmoke;
+    /* Additional styling properties for the footer */
+  }
+  body {
+    background-color: beige;
+    
+  }  
+  .g_button {
+    display: flex;
+    justify-content: center;
+  }
+  .g_button button:hover {
+    background-color: #ccc;
+  }
+  
+  .g_button button {
+    margin: 0 5px; /* Adjust the margin as needed */
+  }
+
+  
+  .g_button button {
+  background-color: beige;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  margin: 0 5px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.center_paragraph {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .thumbnail-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center-align thumbnails horizontally */
+    align-items: center; /* Center-align thumbnails vertically */
+    gap: 10px; /* Adjust the spacing between thumbnails */
+    margin :20px ;
+  }
+  
+  .thumbnail-container img {
+    width: 600px; /* Adjust the width as needed */
+    height: 400px; /* Maintain aspect ratio */
+    border: 1px solid #ddd; /* Add a border around the thumbnails */
+    margin : 10px ;
+
+  }

@@ -1,0 +1,119 @@
+/* Example styles for small screens */
+@media (max-width: 600px) {
+    /* Adjust font sizes */
+    h1 {
+      font-size: 24px;
+    }
+  
+    /* Modify layout */
+   
+  }
+  
+  /* Example styles for medium screens */
+  @media (min-width: 601px) and (max-width: 900px) {
+    /* Adjust font sizes */
+    h1 {
+      font-size: 32px;
+    }
+  
+    /* Modify layout */
+    
+  }
+  
+  /* Example styles for large screens */
+  @media (min-width: 901px) {
+    /* Adjust font sizes */
+    h1 {
+      font-size: 48px;
+    }
+  
+    /* Modify layout */
+   
+  }
+  
+body {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+ 
+    background-image: url('https://images.ctfassets.net/314o13npeir2/5r3Fw44j7gLs3MUlW8Ab7O/0fd8bc2015c8e7f32b0c2409c60d2241/vaj-bakery-budapest-2.JPG?w=1920&q=80');
+    background-repeat: no-repeat, repeat-x;
+    background-position: 10px 0px, left bottom;
+    margin-bottom: 100px;
+}
+
+p {
+    text-align: justify;
+}
+.form_button1{
+    position:absolute;
+    bottom: 25px ;
+    right: 560px;
+    padding: 10px 20px;
+    background-color: white;
+    color: brown;
+    font-size: 16px;
+   
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.form_button2{
+    position:absolute;
+    bottom: 25px ;
+    right: 470px;
+    padding: 10px 20px;
+    background-color: white;
+    color: brown;
+    font-size: 16px;
+   
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+header,
+main,
+footer {
+    
+    width: 70%;
+    min-width: 400px;
+    max-width: 1000px;
+    margin: 50px;
+    background-color: beige;
+    padding: 10px;
+}
+main{
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+header,
+footer {
+    opacity: 0.9;
+}
+div {
+    margin : 5px ;
+    padding : 5px ;
+}
+header {
+    border-radius: 10px 10px 0 0;
+    padding-bottom: 0;
+    position: relative;
+}
+button{
+    margin : 0 auto;
+    padding : 5px;
+}
+footer {
+    border-radius: 0 0 10px 10px;
+}
+
+
+header nav {
+    background-color: #dddddd;
+    padding: 5px 5px 5px 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}

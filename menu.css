@@ -1,0 +1,41 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  th {
+    font-weight: bold;
+  }
+
+  .first_table {
+    caption-side: bottom;
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+  }
+
+  .sec_table {
+    caption-side: bottom;
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto; /* Center-align the container horizontally */
+    padding: 20px;
+  }

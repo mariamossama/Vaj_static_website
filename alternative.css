@@ -1,0 +1,47 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* Adjust this value based on your layout */
+    
+  }
+  
+  .main img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .button_container {
+    display: flex;
+    justify-content: center;
+  }
+  .button_container button:hover {
+    background-color: #ccc;
+  }
+  
+  .button-container button {
+    margin: 0 5px; /* Adjust the margin as needed */
+  }
+
+  
+  .button_container button {
+  background-color: grey;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  margin: 0 5px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+  .footer {
+    background-color: whitesmoke;
+    /* Additional styling properties for the footer */
+  }
+  body {
+    background-color: beige;
+  }  
+  a {
+    margin-right: 10px; /* Adjust the value as needed */
+  }
+  
